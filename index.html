@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzas da Emilly - Nosso Cardápio Delicioso!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #e74c3c; /* Vermelho vibrante */
+            color: white;
+            padding: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #e74c3c;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .pizza-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            /* Não precisa mais do flexbox aqui, já que não tem imagem por item */
+        }
+        .pizza-info h3 {
+            margin-top: 0;
+            color: #c0392b; /* Vermelho um pouco mais escuro */
+        }
+        .pizza-info p {
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        .price {
+            font-weight: bold;
+            color: #27ae60; /* Verde para o preço */
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .main-pizza-image {
+            text-align: center; /* Centraliza a imagem */
+            margin: 30px auto; /* Espaçamento acima/abaixo e centraliza */
+            max-width: 80%; /* Limita a largura para não ficar gigante em telas grandes */
+            height: auto; /* Mantém a proporção */
+            border-radius: 8px; /* Cantos arredondados */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Uma sombra sutil */
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pizzas da Emilly</h1>
+        <p>Sabor que conquista!</p>
+    </header>
+
+    <!-- Aqui vai a imagem principal -->
+    <img src="URL_DA_SUA_FOTO_DE_PIZZA.jpg" alt="Uma deliciosa pizza das Pizzas da Emilly" class="main-pizza-image">
+
+    <main>
+        <h2>Nosso Cardápio de Pizzas</h2>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Margherita Clássica</h3>
+                <p>Molho de tomate artesanal, muçarela fresca, rodelas de tomate, manjericão fresco e um fio de azeite.</p>
+                <div class="price">R$ 45,00</div>
+            </div>
+        </div>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Calabresa Especial</h3>
+                <p>Molho de tomate, muçarela, calabresa fatiada, cebola roxa e azeitonas pretas.</p>
+                <div class="price">R$ 50,00</div>
+            </div>
+        </div>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Portuguesa Tradicional</h3>
+                <p>Molho de tomate, muçarela, presunto, ovos cozidos, ervilha, cebola e azeitonas.</p>
+                <div class="price">R$ 55,00</div>
+            </div>
+        </div>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Frango com Catupiry</h3>
+                <p>Molho de tomate, muçarela, frango desfiado cremoso e Catupiry original.</p>
+                <div class="price">R$ 52,00</div>
+            </div>
+        </div>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Pepperoni Picante</h3>
+                <p>Molho de tomate, muçarela generosa e fatias de pepperoni levemente picante.</p>
+                <div class="price">R$ 53,00</div>
+            </div>
+        </div>
+
+        <div class="pizza-item">
+            <div class="pizza-info">
+                <h3>Vegetariana Fresca</h3>
+                <p>Molho de tomate, muçarela, brócolis, milho, ervilha, palmito e azeitonas.</p>
+                <div class="price">R$ 48,00</div>
+            </div>
+        </div>
+
+        <!-- Você pode adicionar mais pizzas aqui seguindo o mesmo padrão -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pizzas da Emilly. Todos os direitos reservados.</p>
+        <p>Peça já a sua pizza favorita!</p>
+    </footer>
+
+</body>
+</html>
